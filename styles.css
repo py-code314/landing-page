@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Merriweather, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: #1F2937;
+    padding: 20px 40px;
+    font-family: 'Work Sans', sans-serif;   
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-image {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+    color: #f5426c;
+    font-size: 1.2rem;
+}
