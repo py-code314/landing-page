@@ -63,7 +63,8 @@
     height: 300px;
 }
 
-.hero-title {
+.hero-title,
+.heading-title {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -86,4 +87,50 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.paintings {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 48px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading-title,
+.heading-text {
+    padding-bottom: 20px;
+}
+
+.samples {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.painting {
+    width: 220px;
+    height: 450px;
+}
+
+.image {
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    outline: 5px solid #5c5c5c;
+    margin-bottom: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.painting-description {
+    text-align: center;
+    font-size: 0.8rem;
 }
